@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>captain</name>
+    <groupId>weiyiming</groupId>
+    <artifactId>captain-all</artifactId>
+    <version>0.1-SNAPSHOT</version>
+    <developers>
+        <developer>
+            <name>weiyiming</name>
+            <email>weiym0206@gmail.com</email>
+        </developer>
+    </developers>
+
+    <modules>
+        <module>captain-client</module>
+        <module>captain-server</module>
+        <module>captain-registry</module>
+        <module>captain-common</module>
+    </modules>
+</project>
